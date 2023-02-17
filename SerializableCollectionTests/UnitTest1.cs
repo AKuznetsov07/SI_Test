@@ -45,9 +45,6 @@ namespace SerializableCollectionTests
 
             for(int i = 0; i < Count; i++)
             {
-                if (i == 9)
-                    Console.Write("");
-
                 var firstCollectionNode = firstCollection.GetNodeAt(i);
                 var secondCollectionNode = secondCollection.GetNodeAt(i);
                 if (!firstCollectionNode.Data.Equals(secondCollectionNode.Data))
